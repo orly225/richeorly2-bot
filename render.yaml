@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: richeorly2-bot
+    env: python
+    buildCommand: ""
+    startCommand: python bot.py
+    autoDeploy: true
