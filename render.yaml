@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: richeorly2-bot
+    env: python
+    plan: free
+    buildCommand: ""
+    startCommand: python main.py
+    envVars:
+      - key: BOT_TOKEN
+        value: 7865019518:AAEiTP6ZAgwbUG7ZxsKy5LaJ1VVP-L1Y60s
